@@ -1,0 +1,86 @@
+.advice_searcher_element_children{
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    transition: all .3s;
+}
+.advice_searcher_element_children:hover{
+    background-color: rgba(0, 0, 248, 0.157);
+}
+.Default_item:hover{
+    background-color: #D7D7FE;
+}
+.advice_searcher_element_children_active{
+    background-color: rgba(0, 0, 248, 0.157);
+}
+.advice_searcher_element{
+    z-index: 100;
+    position: absolute;
+    overflow-x: hidden;
+    border-radius: 3px;
+    cursor: pointer;
+    height: auto;
+    display: none;
+    max-height: 300px;
+    background-color: #fff;
+}
+.Default_item{
+    border-radius: 3px;
+    display: none;
+    font-family: sans-serif;
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 225px;
+    height: 30px;
+    user-select: none;
+}
+.main_search_element{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 50px;
+    box-sizing: border-box;
+    display: flex;
+    width: 300px;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+}
+.input_of_searcher{
+    font-size: 16px;
+    color: black;
+    font-family: sans-serif;
+    outline: none;
+    width: 75%;
+    height: 100%;
+    padding-left: 10px;
+}
+.button_of_searcher{
+    cursor: pointer;
+    user-select: none;
+    width: 25%;
+    height: 100%;
+}
+
+.label_input_of_searcher{
+    font-family: sans-serif;
+    font-size: 16px;
+    width: 75%;
+    height: 100%;
+    user-select: none;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    top: 0;
+    left:0;
+    color: black;
+    opacity: .4;
+
+}
